@@ -39,7 +39,6 @@ const internSchema = new mongoose.Schema({
     collegeId: {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'College',
-        required: "Student's College Name is Required ",
         trim: true
     },
 
